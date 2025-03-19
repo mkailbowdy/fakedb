@@ -1,144 +1,104 @@
 {
-  "entries": [
+  "employees": [
     {
-      "Date": "2025-03-01",
-      "Day": "Saturday",
-      "Time": "09:00-17:00",
-      "Hours": 8,
-      "Location": "Office"
+      "FirstName": "John", "LastName": "Doe", "EmployeeID": "E001",
+      "shifts": [
+        { "Date": "2025-03-01", "Day": "Saturday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-02", "Day": "Sunday", "Time": "10:00-14:00", "Hours": 4, "Location": "Home" },
+        { "Date": "2025-03-03", "Day": "Monday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-04", "Day": "Tuesday", "Time": "09:00-17:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-05", "Day": "Wednesday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-06", "Day": "Thursday", "Time": "10:00-18:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-07", "Day": "Friday", "Time": "09:00-17:00", "Hours": 8, "Location": "Home" },
+        { "Date": "2025-03-08", "Day": "Saturday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-09", "Day": "Sunday", "Time": "12:00-20:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-10", "Day": "Monday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-11", "Day": "Tuesday", "Time": "10:00-18:00", "Hours": 8, "Location": "Home" },
+        { "Date": "2025-03-12", "Day": "Wednesday", "Time": "08:00-16:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-13", "Day": "Thursday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-14", "Day": "Friday", "Time": "10:00-18:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-15", "Day": "Saturday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" }
+      ]
     },
     {
-      "Date": "2025-03-02",
-      "Day": "Sunday",
-      "Time": "10:00-14:00",
-      "Hours": 4,
-      "Location": "Home"
+      "FirstName": "Jane", "LastName": "Smith", "EmployeeID": "E002",
+      "shifts": [
+        { "Date": "2025-03-01", "Day": "Saturday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-02", "Day": "Sunday", "Time": "12:00-18:00", "Hours": 6, "Location": "Home" },
+        { "Date": "2025-03-03", "Day": "Monday", "Time": "10:00-18:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-04", "Day": "Tuesday", "Time": "09:00-15:00", "Hours": 6, "Location": "Office" },
+        { "Date": "2025-03-05", "Day": "Wednesday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-06", "Day": "Thursday", "Time": "10:00-18:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-07", "Day": "Friday", "Time": "09:00-17:00", "Hours": 8, "Location": "Home" },
+        { "Date": "2025-03-08", "Day": "Saturday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-09", "Day": "Sunday", "Time": "12:00-20:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-10", "Day": "Monday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-11", "Day": "Tuesday", "Time": "10:00-18:00", "Hours": 8, "Location": "Home" },
+        { "Date": "2025-03-12", "Day": "Wednesday", "Time": "08:00-16:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-13", "Day": "Thursday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-14", "Day": "Friday", "Time": "10:00-18:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-15", "Day": "Saturday", "Time": "08:00-16:00", "Hours": 8, "Location": "Office" }
+      ]
     },
     {
-      "Date": "2025-03-03",
-      "Day": "Monday",
-      "Time": "08:30-16:30",
-      "Hours": 8,
-      "Location": "Office"
+      "FirstName": "Michael", "LastName": "Johnson", "EmployeeID": "E003",
+      "shifts": [
+        { "Date": "2025-03-01", "Day": "Saturday", "Time": "14:00-22:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-02", "Day": "Sunday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-03", "Day": "Monday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-04", "Day": "Tuesday", "Time": "09:00-17:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-05", "Day": "Wednesday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-06", "Day": "Thursday", "Time": "09:00-17:00", "Hours": 8, "Location": "Home" },
+        { "Date": "2025-03-07", "Day": "Friday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-08", "Day": "Saturday", "Time": "14:00-22:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-09", "Day": "Sunday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-10", "Day": "Monday", "Time": "09:00-17:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-11", "Day": "Tuesday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-12", "Day": "Wednesday", "Time": "09:00-17:00", "Hours": 8, "Location": "Home" },
+        { "Date": "2025-03-13", "Day": "Thursday", "Time": "09:00-17:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-14", "Day": "Friday", "Time": "09:00-17:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-15", "Day": "Saturday", "Time": "14:00-22:00", "Hours": 8, "Location": "Office" }
+      ]
     },
     {
-      "Date": "2025-03-04",
-      "Day": "Tuesday",
-      "Time": "09:00-15:00",
-      "Hours": 6,
-      "Location": "Remote"
+      "FirstName": "Emily", "LastName": "Davis", "EmployeeID": "E004",
+      "shifts": [
+        { "Date": "2025-03-01", "Day": "Saturday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-02", "Day": "Sunday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-03", "Day": "Monday", "Time": "07:00-15:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-04", "Day": "Tuesday", "Time": "07:00-15:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-05", "Day": "Wednesday", "Time": "07:00-15:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-06", "Day": "Thursday", "Time": "07:00-15:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-07", "Day": "Friday", "Time": "07:00-15:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-08", "Day": "Saturday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-09", "Day": "Sunday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-10", "Day": "Monday", "Time": "07:00-15:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-11", "Day": "Tuesday", "Time": "07:00-15:00", "Hours": 8, "Location": "Remote" },
+        { "Date": "2025-03-12", "Day": "Wednesday", "Time": "07:00-15:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-13", "Day": "Thursday", "Time": "07:00-15:00", "Hours": 8, "Location": "Home" },
+        { "Date": "2025-03-14", "Day": "Friday", "Time": "07:00-15:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-15", "Day": "Saturday", "Time": "Off", "Hours": 0, "Location": "N/A" }
+      ]
     },
     {
-      "Date": "2025-03-05",
-      "Day": "Wednesday",
-      "Time": "10:00-18:00",
-      "Hours": 8,
-      "Location": "Office"
-    },
-    {
-      "Date": "2025-03-06",
-      "Day": "Thursday",
-      "Time": "11:00-16:00",
-      "Hours": 5,
-      "Location": "Home"
-    },
-    {
-      "Date": "2025-03-07",
-      "Day": "Friday",
-      "Time": "09:30-17:30",
-      "Hours": 8,
-      "Location": "Office"
-    },
-    {
-      "Date": "2025-03-08",
-      "Day": "Saturday",
-      "Time": "12:00-16:00",
-      "Hours": 4,
-      "Location": "Remote"
-    },
-    {
-      "Date": "2025-03-09",
-      "Day": "Sunday",
-      "Time": "14:00-18:00",
-      "Hours": 4,
-      "Location": "Home"
-    },
-    {
-      "Date": "2025-03-10",
-      "Day": "Monday",
-      "Time": "08:00-16:00",
-      "Hours": 8,
-      "Location": "Office"
-    },
-    {
-      "Date": "2025-03-11",
-      "Day": "Tuesday",
-      "Time": "09:00-14:00",
-      "Hours": 5,
-      "Location": "Remote"
-    },
-    {
-      "Date": "2025-03-12",
-      "Day": "Wednesday",
-      "Time": "10:00-16:00",
-      "Hours": 6,
-      "Location": "Office"
-    },
-    {
-      "Date": "2025-03-13",
-      "Day": "Thursday",
-      "Time": "08:30-12:30",
-      "Hours": 4,
-      "Location": "Home"
-    },
-    {
-      "Date": "2025-03-14",
-      "Day": "Friday",
-      "Time": "09:00-17:00",
-      "Hours": 8,
-      "Location": "Office"
-    },
-    {
-      "Date": "2025-03-15",
-      "Day": "Saturday",
-      "Time": "10:30-15:30",
-      "Hours": 5,
-      "Location": "Remote"
-    },
-    {
-      "Date": "2025-03-16",
-      "Day": "Sunday",
-      "Time": "12:00-18:00",
-      "Hours": 6,
-      "Location": "Home"
-    },
-    {
-      "Date": "2025-03-17",
-      "Day": "Monday",
-      "Time": "08:00-16:30",
-      "Hours": 8.5,
-      "Location": "Office"
-    },
-    {
-      "Date": "2025-03-18",
-      "Day": "Tuesday",
-      "Time": "09:30-14:30",
-      "Hours": 5,
-      "Location": "Remote"
-    },
-    {
-      "Date": "2025-03-19",
-      "Day": "Wednesday",
-      "Time": "10:00-17:00",
-      "Hours": 7,
-      "Location": "Office"
-    },
-    {
-      "Date": "2025-03-20",
-      "Day": "Thursday",
-      "Time": "13:00-18:30",
-      "Hours": 5.5,
-      "Location": "Home"
+      "FirstName": "Robert", "LastName": "Wilson", "EmployeeID": "E005",
+      "shifts": [
+        { "Date": "2025-03-01", "Day": "Saturday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-02", "Day": "Sunday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-03", "Day": "Monday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-04", "Day": "Tuesday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-05", "Day": "Wednesday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-06", "Day": "Thursday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-07", "Day": "Friday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-08", "Day": "Saturday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-09", "Day": "Sunday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-10", "Day": "Monday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-11", "Day": "Tuesday", "Time": "Off", "Hours": 0, "Location": "N/A" },
+        { "Date": "2025-03-12", "Day": "Wednesday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-13", "Day": "Thursday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-14", "Day": "Friday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" },
+        { "Date": "2025-03-15", "Day": "Saturday", "Time": "12:00-20:00", "Hours": 8, "Location": "Office" }
+      ]
     }
   ]
 }
